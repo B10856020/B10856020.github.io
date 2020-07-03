@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<title>B10856020</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: auto;
+  background-image: url("https://micelle0926.com/file/www.micelle0926/f11/n10356/f.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i>Main Characters</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Photos</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Main Characters</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Photos</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <span class="w3-large"></span>
+    <p><a href="#about" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">更多野原一家</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h1 class="w3-center">野原一家</h1>
+  <p class="w3-center w3-large">無厘頭的一家人</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Nice</p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Patient </p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Romantic</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Unique</p>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>蠟筆小新大家族</h3>
+      <p></p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> 觀看更多劇照</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://www.nornsblog.com/wp-content/uploads/%E5%B0%8F%E6%96%B0%E7%A7%BB%E6%B0%91-1024x575.png" alt="Buildings" width="1000" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h1 class="w3-center">野原一家</h1>
+  <p class="w3-center w3-large">無厘頭的一家人</p>
+  <div class="w3-row-padding w3-black" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.nornsblog.com/wp-content/uploads/OZ1hmY4b_400x400.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>野原新之助</h3>
+          <p class="w3-opacity">搞怪搗蛋</p>
+          <p>生日5月5日、年紀5歲、血型B型，是雙葉幼稚園向日葵班的學生，
+            個性無厘頭、想法邏輯也和一般人不同，時常做出讓人哭笑不得的行徑或是說出令人捏一把冷汗的話
+            ，熱愛動感超人夢想成為跟動感超人一樣的英雄人物，最愛吃鱷魚🐊巧克力餅乾🍪，超級討厭青椒及紅蘿蔔🥕，最愛娜娜子姐姐❤</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 小新</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.nornsblog.com/wp-content/uploads/%E5%BB%A3%E5%BF%97-1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>野原廣志</h3>
+          <p class="w3-opacity">腳很臭</p>
+          <p>生日4月11日，年紀35歲、身高180cm，雙葉商社第一營業部營業二課萬年股長
+            ，平時個性沉穩但有時也會表現出情緒化一面，待人誠懇禮貌但好色😼
+            ，嗜好是看電視、報紙跟小酌，假日喜歡賴床
+            ，有非常嚴重的腳臭，惡臭的程度讓人懷疑人生</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 把拔</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.nornsblog.com/wp-content/uploads/%E7%BE%8E%E5%86%B4.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>野原美冴</h3>
+          <p class="w3-opacity">脾氣火爆</p>
+          <p>生日9月11日，年紀29歲、身高159.2cm、體重52kg，專職家庭主婦
+            ，不准廣志隨便搭訕美女，但自己看到帥哥跑去攀談還會謊稱自己24歲
+            ，個性非常性急暴力，經常動手動腳教訓小新和廣志。</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 麻麻</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.nornsblog.com/wp-content/uploads/%E5%B0%8F%E8%91%B5.png" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>野原小葵 </h3>
+          <p class="w3-opacity">可愛聰明</p>
+          <p>生日9月27日，年紀0歲，名字是小新取的
+            性格上遺傳了媽媽的頑固，想得到的就會爭到底 💪
+            非常喜歡帥哥和亮晶晶✨✨✨的東西，很聰明但破壞慾強烈。</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>小葵</button></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100%</span>
+    <br>Happy
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100%</span>
+    <br>Enthusiastic
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100%</span>
+    <br>Confident 
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100%</span>
+    <br>Optimistic
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h1 class="w3-center">劇場版</h1>
+  <p class="w3-center w3-large">滿滿的小新</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://cdnstatic.svc.litv.tv/34161-000000-206994.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="三分鐘百變大進擊">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://pic.pimg.tw/petermurphey/1533050701-1167812227_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="拉麵小子 功夫大亂鬥">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://g.udn.com.tw/upfiles/B_SH/shiow/PSN_PHOTO/136/f_18270136_1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="爆睡!夢世界大作戰!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://pic.pimg.tw/allison220/1439405789-3522558123_wn.jpg?v=1439405792" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="我的搬家物語 仙人掌大襲擊">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://g.udn.com.tw/upfiles/B_SH/shiow/PSN_PHOTO/124/f_9657124_1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="B級美食大逃亡">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://p2.bahamut.com.tw/B/2KU/85/2ae6a7d757d415fdb97b0a2946152m55.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="新婚旅行風暴">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://s.yimg.com/bt/api/res/1.2/icr2L5y_taPioKzj_P9hfA--~A/YXBwaWQ9dHdhYnVuZXdzO2ZpPWZpbGw7dz01MDA7aD03MDE7/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/a0b5ecc7c0033575f79b269b01c15527" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="劇場版">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://s.yimg.com/os/en/homerun/feed_manager_auto_publish_494/5fd8c1200d83f176079364317062a920" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="劇場版">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>最受喜愛的人物</h3>
+      <p>蠟筆小新中最受歡迎的人物</p>
+      <p></p>
+      <img src="https://st2.ilvs.ilc.edu.tw/~s514144/img/labe1.jpg" class="w3-image w3-black" style="width:50%;margin-top:20px">
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>小新</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>小白</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>風間</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Image of location/map -->
+    <img src="https://up.enterdesk.com/edpic_360_360/4d/e4/3d/4de43d0e9c49232f9d29a8d32ea3066f.jpg" class="w3-image w3-black" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
